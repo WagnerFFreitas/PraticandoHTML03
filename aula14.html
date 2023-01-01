@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Título</title>
+  <style>
+
+  div  {
+    margin: 10px;
+  }
+
+
+  div#id1 table, div#id1 th, div#id1 td {
+  border: 1px solid black;
+  }
+
+
+  div#id2 table {
+  border-collapse: collapse;
+  }
+
+  div#id2 table, div#id2 th, div#id2 td {
+  border: 1px solid black;
+  }
+
+
+  div#id3 table {
+  border: 1px solid black;
+  }
+
+
+  </style>
+</head>
+<body >
+
+  <div id=id1>
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>E-mail</th>
+      <tr>
+      <tr>
+        <td>Rodrigo</td>
+        <td>rodrigo@alfamidia.com.br</td>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>info@alfamidia.com.br</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div id=id2>
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>E-mail</th>
+      <tr>
+      <tr>
+        <td>Rodrigo</td>
+        <td>rodrigo@alfamidia.com.br</td>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>info@alfamidia.com.br</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id=id3>
+    <table>
+      <tr>
+        <th colspan="2">Dados</th>
+      <tr>
+      <tr>
+        <td rowspan="2">Rodrigo</td>
+        <td>rodrigo@alfamidia.com.br</td>
+      </tr>
+      <tr>
+        <td>info@alfamidia.com.br</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

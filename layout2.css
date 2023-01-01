@@ -1,0 +1,53 @@
+body
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1
+{
+  font-size:23px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #5656bd;
+  text-align: center;
+}
+
+h2 
+{
+  font-size:20px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+   color: #5656bd;
+}
+h3
+{
+  font-size:18px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+   color: #5656bd;
+   display: inline-block;
+   width: 25%;
+}
+p
+{
+	font-size:16px;
+	font-family: sans-serif;
+}
+p#descricao-curso
+{
+	font-size:16px;
+}
+p.texto
+{
+	font-size:16px;
+	display: inline;
+	width:75%;
+
+}
+div#corpo-da-pagina
+{
+	background-color:#ddd;
+	padding: 10px;
+}
+
